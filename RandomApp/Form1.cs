@@ -36,7 +36,7 @@ namespace RandomApp
         {
             if(start)
             {
-                Process[] processes = Process.GetProcessesByName("minecraft");
+                Process[] processes = Process.GetProcessesByName("Minecraft");
 
                 foreach (var process in processes)
                 {
